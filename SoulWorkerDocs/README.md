@@ -55,7 +55,7 @@ The app runs locally without an application server or account. Its standalone HT
 - **To build from source:** Python 3 (the scripts were run on 3.14), Rust 1.98 with the MSVC toolchain, VS 2022 Build Tools with a Windows SDK, and an internet connection **during the build only**.
 
 ### Steps — run the built exe
-1. Take `shell/src-tauri/target/release/soulworker-docs.exe`, or the installer `shell/src-tauri/target/release/bundle/nsis/SoulWorker Docs_1.0.0_x64-setup.exe`.
+1. Download from the [official release](https://github.com/AliesterEroan/soulworker-docs/releases/latest), or take a local build: `shell/src-tauri/target/release/soulworker-docs.exe` or the installer `shell/src-tauri/target/release/bundle/nsis/SoulWorker Docs_1.0.0_x64-setup.exe`.
 2. Double-click it. First run may show SmartScreen's "Windows protected your PC" because the exe is unsigned — *More info* → *Run anyway*. A paid code-signing certificate is the only cure.
 3. Press Enter through the intro.
 
