@@ -1,0 +1,32 @@
+/help
+/item <id or name> [count]
+/find <name>
+/gold [0 Zenny | 1 ether | 2 BP | 3 cash] <amount>  (negative takes)
+/setgold <amount>
+/ether <amount>  (negative takes)
+/fp <FP> [bonus FP]
+/level <1-85>
+/awaken <0-3>  (1 first advancement, 2 Desireworker, 3 second advancement; each includes the ones before)
+/aspd <1-250 | off>  (attack speed %, 100 = normal)
+/mspd ^ same as aspd
+/cooldown <0-100 | off>  (skill cooldowns shorter by this %)
+/god [on | off]  (no HP loss, no stuns or other crowd control)
+/sv <amount | max>  (soul vapor, the break skills' gauge)
+/buff <tb_Buff id>  (puts it on you)
+/booster <tb_Booster id> | clear
+/durability <n>  (worn gear, capped at its max)
+/core <level 0-9> [tb_Core_Skill id per slot ...]  (the worn Desire Crystal)
+/akashic <card id ... | all | pages <1-5> | reset>  (the Akashic Records book)
+/pet <group ... | all> [step=<1-50>] [level=<1-30>] | pieces <group> <n> | colorless <n> | reset
+/title <title id ... | all | clear | del <id ...> | open <id ...>>  (all = every title for your class)
+/credit <NPC group> <points>  (NPC loyalty, e.g. 1004 = Trisha)
+/resetinven [bag|costume|cash|all]
+/tp <town name or district id>
+/maze <maze id>
+/leave
+/clear  (win the current maze run now)
+/entry [<maze id> | reset]  (maze entry counts: what is left, or clear them)
+/where
+/quest <list|accept|complete|force|giveup|cond|reset|skip> [id]  (reset without an id: all)
+/pin [reset]  (your account's second password: show, or remove it and unblock)
+/monsterstatus 0-1

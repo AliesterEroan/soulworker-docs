@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "SoulWorker Docs",
+  "version": "1.0.0",
+  "identifier": "com.aliestereroan.soulworkerdocs",
+  "build": {
+    "frontendDist": "../frontend"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "SoulWorker Docs",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 600,
+        "center": true,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "publisher": "AliesterEroan",
+    "copyright": "AliesterEroan. Records are game data; SoulWorker is a third-party property.",
+    "category": "Utility",
+    "shortDescription": "SoulWorker item, warp and command records",
+    "longDescription": "A single offline Windows app holding the SoulWorker item, warp and command records, including the shelves built by hand. No network access, no installed runtime, no browser chrome.",
+    "icon": ["icons/icon.ico", "icons/icon.png"],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper",
+        "silent": true
+      },
+      "nsis": {
+        "installMode": "currentUser"
+      }
+    }
+  }
+}

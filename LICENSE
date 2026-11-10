@@ -1,0 +1,40 @@
+SoulWorker Docs — Proprietary License
+
+Copyright © 2026 AliesterEroan. All rights reserved.
+
+SoulWorker Docs is proprietary software. The following are strictly prohibited
+without explicit written permission:
+
+- Commercial use - Using this software for business, revenue-generating,
+  or enterprise purposes
+- Distribution - Sharing, publishing, or redistributing copies of this
+  software, except as allowed for the copyright holder below
+- Modification - Altering, reverse-engineering, or creating derivative
+  works
+- Sublicensing - Granting rights to others to use this software
+
+This software is provided for personal, non-commercial use only.
+
+Official distribution: the copyright holder may distribute copies of this
+software through the channels they choose — at the time of writing, handing
+the built executable or installer to people directly — and those copies are
+offered for personal, non-commercial use under the terms above. This clause
+permits the copyright holder's own publication only. Third parties remain
+bound by the distribution prohibition and may not host, mirror, republish,
+submit to a store, or otherwise redistribute this software or any copy of it.
+
+For licensing inquiries, contact the copyright holder through their GitHub
+profile: https://github.com/AliesterEroan
+
+---
+
+Third-party components remain under their own licenses:
+
+- SheetJS (`vendor/xlsx.full.min.js`, v0.20.3) - used under the Apache License 2.0; a copy of that license ships beside it at `vendor/xlsx-LICENSE`
+- Plus Jakarta Sans (`fonts/plus-jakarta-sans-var.woff2`) - used under the SIL Open Font License 1.1
+- JetBrains Mono (`fonts/jetbrains-mono-var.woff2`) - used under the SIL Open Font License 1.1
+- icons8 "cotton" style icons (`icons/`) - used under the icons8 free license, attributed on the app's Credits page
+
+The SoulWorker item, warp and GM-command records embedded in the builds are a
+fan-made snapshot of game data belonging to the game's respective owners; they
+are not part of this license's grant.

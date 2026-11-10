@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Granted to the main window. One entry: core:default is what lets the page invoke a command at all. Export does not need a dialog permission - the native Save dialog and the write both happen inside save_export on the Rust side, so the page never names a path and never asks for the dialog itself. No read, delete, execute, filesystem-browsing or dialog permission is granted.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
